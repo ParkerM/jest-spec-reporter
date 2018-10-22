@@ -1,0 +1,56 @@
+[
+  {
+    "ancestorTitles": [
+      "Boolean comparison"
+    ],
+    "duration": 100,
+    "failureMessages": [],
+    "fullName": "Boolean comparison should compare two boolean values",
+    "location": null,
+    "numPassingAsserts": 0,
+    "status": "passed",
+    "title": "should compare two boolean values"
+  },
+  {
+    "ancestorTitles": [
+      "Boolean comparison"
+    ],
+    "duration": 501,
+    "failureMessages": [
+      "Error: expect(received).toFlyOutOf(expected)\n\nExpected bats to have flown out of:\n  \"nose\"\n but instead they just hung upside down and ate bugs.\n\n    at boolean.spec.js:10:20"
+    ],
+    "fullName": "Boolean comparison should make bats fly out of ones nose",
+    "location": null,
+    "numPassingAsserts": 0,
+    "status": "failed",
+    "title": "should make bats fly out of ones nose"
+  },
+  {
+    "ancestorTitles": [
+      "Boolean comparison",
+      "in a perfect world"
+    ],
+    "duration": 201,
+    "failureMessages": [],
+    "fullName": "Boolean comparison in a perfect world should pass if true is equal to true",
+    "location": null,
+    "numPassingAsserts": 0,
+    "status": "passed",
+    "title": "should pass if true is equal to true"
+  },
+  {
+    "ancestorTitles": [
+      "Boolean comparison",
+      "in a perfect world"
+    ],
+    "duration": 502,
+    "failureMessages": [
+      "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at boolean.spec.js:40:80"
+    ],
+    "fullName": "Boolean comparison in a perfect world should fail if true is equal to false",
+    "location": null,
+    "numPassingAsserts": 0,
+    "status": "failed",
+    "title": "should fail if true is equal to false"
+  }
+]
