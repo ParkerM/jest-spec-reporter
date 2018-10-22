@@ -1,0 +1,16 @@
+{
+  "numFailedTests": 2,
+  "numPassedTests": 2,
+  "numPendingTests": 0,
+  "numTotalTests": 4,
+  "startTime": 1540168755664,
+  "testResults": [
+    {
+      "numFailingTests": 2,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "testFilePath": "boolean.spec.js",
+      "failureMessage": "Error: expect(received).toFlyOutOf(expected)\n\nExpected bats to have flown out of:\n  \"nose\"\n but instead they just hung upside down and ate bugs.\n\n    at boolean.spec.js:10:20\n\nError: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at boolean.spec.js:40:80"
+    }
+  ]
+}
